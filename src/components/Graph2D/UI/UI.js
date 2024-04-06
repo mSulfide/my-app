@@ -3,7 +3,7 @@ import React from "react";
 class UI extends React.Component {
     constructor(props) {
         super(props);
-        console.log(111);
+        console.log(props.addFunction);
         if (props.addFunction)
             this.addFunction = props.addFunction;
         if (props.delFunction)
